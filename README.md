@@ -21,11 +21,11 @@ To run the project locally, follow these steps:
    git clone https://github.com/Daviiduhh/custom-dropdown.git
    ```
 
+2. Navigate to the project folder:
+
    ```bash
    cd custom-dropdown
    ```
-
-2. Navigate to the project folder:
 
 ## Usage
 
