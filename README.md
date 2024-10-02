@@ -1,6 +1,6 @@
 # Custom Dropdown Menu
 
-This project is a custom dropdown menu built as part of a challenge from [roadmap.sh](https://roadmap.sh). The dropdown allows users to select an item from a list with three distinct states: a default state with placeholder text, an open state displaying all options, and a selected state that highlights the chosen item.
+This project is a custom dropdown menu built as part of a challenge from [roadmap.sh](https://roadmap.sh/projects/custom-dropdown). The dropdown allows users to select an item from a list with three distinct states: a default state with placeholder text, an open state displaying all options, and a selected state that highlights the chosen item.
 
 You can view the live project here: [Custom Dropdown Menu](https://custom-dropdown-daviiduhh.netlify.app/).
 
