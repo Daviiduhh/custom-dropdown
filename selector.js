@@ -19,25 +19,25 @@ export async function setupSelector(eSelector, eList, eSelected) {
     });
   };
 
-  const universities = await getUniversities();
-  const parsedUniversities = parseUniversities(universities);
+  const products = await getProducts();
+  const parsedProducts = parseProducts(products);
 
   setSelected();
-  setList(parsedUniversities);
+  setList(parsedProducts);
 }
 
-const parseUniversities = (universities) => {
-  return universities
-    .map((u) => `<span class="selector__list__item">${u.name}</span>`)
+const parseProducts = (products) => {
+  return products
+    .map((u) => `<span class="selector__list__item">${u.title}</span>`)
     .join("");
 };
 
-const getUniversities = async () => {
+const getProducts = async () => {
   const request = await fetch(
-      "http://universities.hipolabs.com/search?country=Mexico"
+      "https://fakestoreapi.com/products"
     ),
     json = await request.json(),
-    universities = await json;
+    products = await json;
 
-  return universities;
+  return products;
 };
